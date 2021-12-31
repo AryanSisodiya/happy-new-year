@@ -4,7 +4,9 @@
   "description": "this is a website greeting happy new year that i have created",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "npm install"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/AryanSisodiya/happy-new-year/issues"
   },
-  "homepage": "https://github.com/AryanSisodiya/happy-new-year#readme",
   "dependencies": {
     "express": "^4.17.2",
     "pug": "^3.0.2"
