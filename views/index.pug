@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Personal Portfolio
+    link(rel='stylesheet' href='../static/CSS/style.css')
+    meta(name='description' content='this is a website greeting happy new year that i have created')
+    meta(name='theme-color' content='#ecf0f1')
+  body
+    .container
+      div
+        li#hamburger.li.hamburger-li
+          img.hamburger(src='../static/img/hamburger.svg' alt='Click to collapse / expand')
+        #sidebar.sidebar.box-shadow
+          nav#nav
+            ul
+              a.li(href='/') Home
+      .main
+        .infoContainer.box-shadow
+          .devInfo
+            .hello Happy New Year
+            .name From Aryan Sisodiya
+            .moreabout Wish you a very very Happy New Year..!!!
+            //
+              <div class="buttons">
+              <li class="li">Download CV</li>
+              <li class="li">Contact</li>
+              </div>
+            // <hr>
+            .about.box-shadow This website has been created by Aryan Sisodiya
+          .devPic
+            img.box-shadow(src='../static/img/hpny2022.webp' alt='Aryan Sisodiya')
+    script(src='../static/JS/script.js')
