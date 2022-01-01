@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('*', (req, res) => {
-    res.status(200).render('index.pug');
+    res.status(200).redirect("/");
 })
 
 app.listen(port, () => {
